@@ -10,6 +10,6 @@ artifacts:
     - appspec.yml
     - scripts/change_permissions.sh
     - scripts/install_dependencies.sh
-    - scripts/shutdown_server.sh
-    - scripts/startup_server.sh     
+    - scripts/start_server.sh
+    - scripts/stop_server.sh     
   discard-paths: yes
